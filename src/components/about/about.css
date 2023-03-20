@@ -20,6 +20,7 @@
     overflow: hidden;
     transform: rotate(10deg);
     transition: var(--transition);
+    box-shadow: 0 0 1rem var(--color-primary);
 }
 
 .about__me-image:hover{
@@ -39,6 +40,7 @@
     padding: 2rem;
     text-align: center;
     transition: var(--transition);
+    box-shadow: 0 0 1rem var(--color-primary);
 }
 
 .about__card:hover{

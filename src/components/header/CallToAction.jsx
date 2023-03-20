@@ -1,11 +1,22 @@
 import React from 'react'
-import CV from '../../assets/Curriculo Cristian Ricardo Leite.pdf'
+import CV from '../../assets/Currículo Cristian Leite Fullstacks.pdf'
+import Aos from 'aos'
+import "../../../node_modules/aos/dist/aos.css"
 
 const CallToAction = () => {
+
+   /* ================== Aos (scroll) ================ */
+
+   React.useEffect(() => {
+    Aos.init({
+      duration: 5000
+    })
+  }, [])
+
   return (
-    <div className='cta'>
-      <a href={CV} download className='btn'> Download CV </a>
-      <a href='#contact' className='btn btn-primary'> Let's Talk </a>
+    <div data-aos="fade-right" data-aos-duration="3000" className='cta'>
+      <a  href={CV} download className='btn'> Download CV </a>
+      <a  href='#Contact' className='btn btn-primary'> Let's Talk </a>
     </div>
   )
 }

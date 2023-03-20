@@ -18,6 +18,7 @@
     text-align: center;
     border: 1px solid transparent;
     transition: var(--transition);
+    box-shadow: 0 0 1rem var(--color-primary);
 }
 
 .contact__option:hover{
@@ -38,6 +39,10 @@
 
 .contact__option h5 {
     color: var(--color-light);
+}
+
+.textArea{
+    box-shadow: 0 0 1rem var(--color-primary);
 }
 
 /* =================== FORM ==========================  */

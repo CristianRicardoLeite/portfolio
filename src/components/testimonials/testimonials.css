@@ -10,6 +10,7 @@
     border-radius: 50%;
     margin: 0 auto 1rem;
     border: .4rem solid var(--color-primary-variant);
+    box-shadow: 0 0 1rem var(--color-primary);
 }
 
 .testimonial{
@@ -28,8 +29,9 @@
     margin: .8rem auto 0;
 }
 
-.swiper-pagination-clickable.swiper-pagination-bullet{
+.swiper-pagination-clickable .swiper-pagination-bullet{
     background: var(--color-primary);
+    box-shadow: 0 0 1rem var(--color-primary);
 }
 
 /* ================== RESPONSIVE PAGES (MEDIA QUERIES: MEDIUM DEVICES) ================ */
