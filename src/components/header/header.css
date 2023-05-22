@@ -1,0 +1,158 @@
+header {
+    height: 100vh;
+    padding-top: 7rem;
+    overflow: hidden;
+}
+
+.header__container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+
+/* =====================  CALLTOACTION STYLES ========================== */
+
+
+.cta {
+    margin-top: 2.5rem;
+    display:flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+.btn-animation{
+    animation-name: growUp;
+    transition: 2s;
+    animation-duration: 2s;
+    transition-delay: 100ms;
+    animation-iteration-count: infinite;
+    animation-play-state: running; 
+}
+
+@keyframes growUp{
+    0%{
+        box-shadow: 0 0 1rem var(--color-primary);
+    }
+    50%{
+        box-shadow: none
+    }
+    100%{
+        box-shadow: 0 0 1rem var(--color-primary);
+    }
+}
+
+
+/* =====================  SOCIALS STYLES ========================== */
+
+
+.header__socials {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+}
+
+.header__socials::after{
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+    box-shadow: 0 0 1rem var(--color-primary);
+    
+}
+
+.iconLink{
+    box-shadow: 0 0 1rem var(--color-primary);
+    background: transparent;
+    border-radius: 3rem;
+    padding: 0.2rem;
+}
+
+.scroll__down{
+    box-shadow: 0 0 1rem var(--color-primary);
+    background: transparent;
+    border-radius: 3rem;
+    padding: 0.2rem;
+}
+
+
+/* =====================  IMAGE ME STYLES ========================== */
+
+
+.me {
+    background: linear-gradient( var(--color-primary), transparent);
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    margin-top: 4rem;
+    border-radius: 6rem 6rem 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 1rem var(--color-primary);
+}
+
+
+/* =====================  SCROLL DOWN ========================== */
+
+
+.scroll__down {
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+/* ================== RESPONSIVE PAGES (MEDIA QUERIES: MEDIUM DEVICES) ================ */
+
+@media screen and (max-width: 1024px) {
+    header {
+        height: 68vh;
+    }
+}
+
+/* ================== RESPONSIVE PAGES (MEDIA QUERIES: SMALL DEVICES) ================ */
+
+@media screen and (max-width: 600px){
+    header {
+        height: 100vh;
+    }
+
+    .header__socials, .scroll__down {
+        display: none;
+    }
+}
+
+/* ================== type js ================ */
+
+.typed-cursor{
+    opacity: 1;
+    animation: typedjsBlink 0.8s infinite;
+    -webkit-animation: typedjsBlink 0.8s infinite;
+    animation: typedjsBlink 0.8s infinite;
+  }
+  @keyframes typedjsBlink{
+    50% { opacity: 0.0; }
+  }
+  @-webkit-keyframes typedjsBlink{
+    0% { opacity: 1; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1; }
+  }
+  .typed-fade-out{
+    opacity: 0;
+    transition: opacity .25s;
+    -webkit-animation: 0;
+    animation: 0;
+  }
+
+ .h5header{
+    font-size: 1.5rem;
+  }
+
+
