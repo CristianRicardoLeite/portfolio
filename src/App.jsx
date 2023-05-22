@@ -11,21 +11,19 @@ import Contact from './components/contact/contact'
 import Footer from './components/footer/footer'
 
 
-
 const App = () => {
 
   return (
     <>
-        <Header/>
-        <Nav />
-        <About />
-        <Experience />
-        <Services/>
-        <Portfolio />
-        <Testimonials /> 
-        <Contact />
-        <Footer />
-
+      <Header />
+      {/* <Nav /> */}
+      <About />
+      <Experience />
+      <Services />
+      <Portfolio />
+      {/* <Testimonials /> */}
+      <Contact />
+      <Footer />
     </>
   )
 }

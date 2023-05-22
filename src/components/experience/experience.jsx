@@ -1,20 +1,20 @@
 import React from 'react'
 import './experience.css'
-import {BsPatchCheckFill} from 'react-icons/bs'
+import { BsPatchCheckFill } from 'react-icons/bs'
 
 import Aos from 'aos'
 import "../../../node_modules/aos/dist/aos.css"
 
 const Experience = () => {
 
-    /* ================== Aos (scroll) ================ */
+  /* ================== Aos (scroll) ================ */
 
-    React.useEffect(() => {
-      Aos.init({
-        delay: 400,
-        easing: 'ease',
-      })
-    }, [])
+  React.useEffect(() => {
+    Aos.init({
+      delay: 100,
+      easing: 'ease',
+    })
+  }, [])
 
   return (
     <section id='Experience'>
@@ -24,30 +24,30 @@ const Experience = () => {
       <div className="container experience__container">
         <div data-aos="flip-up" data-aos-duration="1250" data-aos-anchor-placement="center-bottom" className="experience__frontend">
           <h3>Frontend Development</h3>
-          <div  className="experience__content">
+          <div className="experience__content">
             <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon'/>
+              <BsPatchCheckFill className='experience__details-icon' />
               <div>
                 <h4>HTML</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon'/>
+              <BsPatchCheckFill className='experience__details-icon' />
               <div>
                 <h4>CSS</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon'/>
+              <BsPatchCheckFill className='experience__details-icon' />
               <div>
                 <h4>JAVASCRIPT</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon'/>
+              <BsPatchCheckFill className='experience__details-icon' />
               <div>
                 <h4>REACT</h4>
                 <small className='text-light'>Experienced</small>
@@ -57,49 +57,49 @@ const Experience = () => {
         </div>
         <div data-aos="flip-up" data-aos-duration="1250" className="experience__backend">
           <h3>Backend Development</h3>
-            <div className="experience__content">
-              <article className='experience__details'>
-                <BsPatchCheckFill className='experience__details-icon'/>
-                <div>
-                  <h4>Node JS</h4>
-                  <small className='text-light'>Experienced</small>
-                </div>
-              </article>
-              <article className='experience__details'>
-                <BsPatchCheckFill className='experience__details-icon' />
-                <div>
-                  <h4>MongoDB</h4>
-                  <small className='text-light'>Experienced</small>
-                </div>
-              </article>
-              <article className='experience__details'>
-                <BsPatchCheckFill className='experience__details-icon'/>
-                <div>
-                  <h4>Express</h4>
-                  <small className='text-light'>Experienced</small>
-                </div>
-              </article>
-              <article className='experience__details'>
-                <BsPatchCheckFill className='experience__details-icon'/>
-                <div>
-                  <h4>Sequelize</h4>
-                  <small className='text-light'>Experienced</small>
-                </div>
-              </article>
-              <article className='experience__details'>
-                <BsPatchCheckFill className='experience__details-icon'/>
-                <div>
-                  <h4>Postgres</h4>
-                  <small className='text-light'>Experienced</small>
-                </div>
-              </article>
-              <article className='experience__details'>
-                <BsPatchCheckFill className='experience__details-icon'/>
-                <div>
-                  <h4>Token JWT </h4>
-                  <small className='text-light'>Experienced</small>
-                </div>
-              </article>
+          <div className="experience__content">
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+                <h4>Node JS</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+                <h4>MongoDB</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+                <h4>Express</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+                <h4>Sequelize</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+                <h4>Postgres</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+                <h4>Token JWT </h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
           </div>
         </div>
       </div>

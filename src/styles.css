@@ -95,7 +95,25 @@ a:hover {
     border: 1px solid var(--color-primary);
     transition: var(--transition);
     box-shadow: 0 0 1rem var(--color-primary);
+    animation-name: growUp;
+    animation-duration: 3s;
+    transition-delay: 50ms;
+    animation-iteration-count: infinite;
+    animation-play-state: running; 
 }
+
+@keyframes growUp{
+    0%{
+        box-shadow: 0 0 1rem var(--color-primary);
+    }
+    50%{
+        box-shadow: none
+    }
+    100%{
+        box-shadow: 0 0 1rem var(--color-primary);
+    }
+}
+
 
 .btn:hover{
     background: transparent ; 

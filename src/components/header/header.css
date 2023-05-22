@@ -21,6 +21,27 @@ header {
     justify-content: center;
 }
 
+.btn-animation{
+    animation-name: growUp;
+    transition: 2s;
+    animation-duration: 2s;
+    transition-delay: 100ms;
+    animation-iteration-count: infinite;
+    animation-play-state: running; 
+}
+
+@keyframes growUp{
+    0%{
+        box-shadow: 0 0 1rem var(--color-primary);
+    }
+    50%{
+        box-shadow: none
+    }
+    100%{
+        box-shadow: 0 0 1rem var(--color-primary);
+    }
+}
+
 
 /* =====================  SOCIALS STYLES ========================== */
 

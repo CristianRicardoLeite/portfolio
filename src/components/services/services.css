@@ -1,6 +1,6 @@
 .services__container {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 3rem;
 }
 
@@ -13,7 +13,7 @@
     box-shadow: 0 0 1rem var(--color-primary);
 }
 
-.service:hover{
+.service:hover {
     background: transparent;
     border-color: var(--color-primary-variant);
     cursor: default;
@@ -23,10 +23,10 @@
     background: var(--color-primary);
     padding: 2rem;
     border-radius: 0 0 2rem 2rem;
-    box-shadow: 0 2rem 1rem rgba(0,0,0,0.1);
+    box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
 }
 
-.service__head h3{
+.service__head h3 {
     color: var(--color-bg);
     font-size: 1rem;
     text-align: center;
@@ -36,7 +36,7 @@
     padding: 2rem;
 }
 
-.service__list li{
+.service__list li {
     display: flex;
     gap: 1rem;
     margin-bottom: .8rem;
@@ -47,27 +47,27 @@
     margin-top: 2px;
 }
 
-.service__list p{
+.service__list p {
     font-size: .9rem;
 }
 
 
 /* ================== RESPONSIVE PAGES (MEDIA QUERIES: MEDIUM DEVICES) ================ */
 
-@media screen and (max-width: 1024px){
-    .services__container{
+@media screen and (max-width: 1024px) {
+    .services__container {
         grid-template-columns: 1fr 1fr;
         gap: 2rem;
     }
 
-    .service{
+    .service {
         height: auto;
     }
 }
 
 /* ================== RESPONSIVE PAGES (MEDIA QUERIES: SMALL DEVICES) ================ */
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
     .services__container {
         grid-template-columns: 1fr;
         gap: 1.5rem;

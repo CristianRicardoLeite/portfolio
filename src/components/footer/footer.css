@@ -1,62 +1,71 @@
-footer{
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
     background: var(--color-primary);
-    padding: 3rem 0;
-    text-align: center;
-    font-size: .9rem;
-    margin-top: 7rem;
 }
 
-footer a{
-    color: var(--color-bg);
-    font-size: 1.6rem;
+.social {
+    margin: 0.5rem 1rem;
 }
 
-.footer__logo {
-    font-size: 2rem;
-    font-weight: 500;
-    margin-bottom: 2rem;
-    display: inline-block;
+.social a {
+    font-size: 27px;
+    margin: 0.5rem 1rem;
 }
 
-.permalinks {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
-    margin: 0 auto 3rem;
-}
-
-.footer__socials{
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    margin-bottom: 4rem;
-}
-
-.footer__socials a {
+.social a .bx {
+    padding: 5px;
+    color: #fff;
     background: var(--color-bg);
-    color: var(--color-white);
-    padding: .8rem;
-    border-radius: .7rem;
-    display: flex;
-    border: 1px solid transparent;
+    border-radius: 50%;
 }
 
-.footer__socials a:hover{
-    background: transparent;
-    color: var(--color-bg);
-    border-color: var(--color-bg);
+.links a {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--color-light);
+    padding: 1rem;
 }
+
+.links a:hover {
+    color: var(--color-bg);
+}
+
+.contact p {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.footer-icon {
+    margin: .2rem .8rem;
+    cursor: pointer;
+}
+
+.footer-icon:hover {
+    color: var(--color-bg);
+}
+
+.copyRight-link {
+    color: white;
+    font-weight: bold;
+}
+
+.copyRight-link:hover {
+    color: var(--color-bg);
+    font-weight: bold;
+}
+
 
 /* ================== RESPONSIVE PAGES (MEDIA QUERIES: SMALL DEVICES) ================ */
 
-@media screen and (max-width: 600px){
-    .permalinks{
-        flex-direction: column;
-        gap: 1.5rem;
+@media screen and (max-width: 600px) {
+    .contact {
+        padding: auto 20px;
     }
 
-    .footer__socials{
-        margin: 2.6rem;
+    .links a {
+        display: none;
     }
 }

@@ -45,6 +45,7 @@
 
 .about__card:hover{
     background: transparent;
+    transition: var(--transition);
     border-color: var(--color-primary-variant);
     cursor: default;
 }
@@ -71,6 +72,60 @@
     flex-direction: column;
     justify-content: center;
 }
+
+.MoreThanOneSkill__About{
+    padding:1rem;
+}
+
+.H5{
+    margin-bottom: 0.7rem;
+    animation-duration: 4s;
+    animation-name: changeSkillsColor;
+    transition-delay: 250ms;
+    animation-iteration-count: infinite;
+    animation-play-state: running; 
+}
+
+bold{
+    font-weight: bold;
+    font-size: medium;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-name: slidein;
+    transition-delay: 250ms;
+    animation-iteration-count: infinite;
+    animation-play-state: running;   
+}
+
+@keyframes slidein {
+    0% {
+        font-weight: medium;
+        color: var(--color-light);      
+    }
+    50%{
+        font-weight: large;
+        color: var(--color-primary);
+    }
+    100% {
+    font-weight: medium;
+    color: var(--color-light);
+    }
+  }
+
+  @keyframes changeSkillsColor {
+    0% {
+        font-weight: medium;
+        color: var(--color-light);      
+    }
+    50%{
+        font-weight: large;
+        color: var(--color-primary);
+    }
+    100% {
+    font-weight: medium;
+    color: var(--color-light);
+    }
+  }
 
 /* ================== RESPONSIVE PAGES (MEDIA QUERIES: MEDIUM DEVICES) ================ */
 

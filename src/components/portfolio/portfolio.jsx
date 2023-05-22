@@ -1,5 +1,6 @@
 import React from 'react'
 import './portfolio.css'
+
 import IMG1 from '../../assets/portfolio1.png'
 import IMG2 from '../../assets/portfolio2.png'
 import IMG3 from '../../assets/portfolio3.jpg'
@@ -84,7 +85,7 @@ const Portfolio = () => {
             <img src={IMG6} alt=''/>
             <h3>Update soon</h3>
               <div className="portfolio__item-cta">
-                <a href='https://github.com/CristianRicardoLeite' className='btn' target='_blank' rel='noreferrer'>Github</a>
+                <a href='https://github.com/CristianRicardoLeite'  className='btn' target='_blank' rel='noreferrer'>Github</a>
                 <a href='https://github.com/CristianRicardoLeite' className='btn btn-primary' target='_blank' rel='noreferrer'>Live Demo</a>
               </div>
             </div>

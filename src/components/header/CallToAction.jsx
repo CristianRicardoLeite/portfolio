@@ -15,8 +15,8 @@ const CallToAction = () => {
 
   return (
     <div data-aos="fade-right" data-aos-duration="3000" className='cta'>
-      <a  href={CV} download className='btn'> Download CV </a>
-      <a  href='#Contact' className='btn btn-primary'> Let's Talk </a>
+      <a  href={CV} download className='btn btn-animation'> Download CV </a>
+      <a  href='#Contact' className='btn btn-primary btn-animation'> Let's Talk </a>
     </div>
   )
 }
