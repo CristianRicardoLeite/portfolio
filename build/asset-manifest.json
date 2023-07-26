@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4adc3337.css",
+    "main.js": "/static/js/main.4eeb6c00.js",
+    "static/media/me-about.png": "/static/media/me-about.650fe7c31b59af769853.png",
+    "static/media/me.png": "/static/media/me.a0d81e81101238e9aa6c.png",
+    "static/media/portfolio3.jpg": "/static/media/portfolio3.1cba94b011ea48a0e671.jpg",
+    "static/media/Curriculo_Desenvolvedor_full_stack_Cristian_Ricardo.pdf": "/static/media/Curriculo_Desenvolvedor_full_stack_Cristian_Ricardo.216c9de4e4a704765672.pdf",
+    "static/media/portfolio9.png": "/static/media/portfolio9.78da42e46f3cca764cc1.png",
+    "static/media/portfolio2.png": "/static/media/portfolio2.4174e238da697d0e8c55.png",
+    "static/media/portfolio7.png": "/static/media/portfolio7.b1b02717c0df226d65c4.png",
+    "static/media/portfolio1.png": "/static/media/portfolio1.059260a9572c986b0085.png",
+    "static/media/portfolio8.png": "/static/media/portfolio8.88b0256dd45ae6a512d8.png",
+    "index.html": "/index.html",
+    "main.4adc3337.css.map": "/static/css/main.4adc3337.css.map",
+    "main.4eeb6c00.js.map": "/static/js/main.4eeb6c00.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4adc3337.css",
+    "static/js/main.4eeb6c00.js"
+  ]
+}

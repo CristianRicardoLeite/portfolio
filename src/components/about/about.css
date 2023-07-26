@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .about__container{
     display: grid;
     grid-template-columns: 35% 50%;
@@ -171,3 +172,178 @@ bold{
     }
 }
 
+=======
+.about__container{
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+}
+
+.about__me{
+    width: 100%;
+    aspect-ratio: 1/1;
+    padding: 2rem;
+    border-radius: 2rem;
+    background: linear-gradient(45deg,transparent, var(--color-primary),transparent);
+    display: grid;
+    place-items: center;
+}
+
+.about__me-image {
+    border-radius: 2rem;
+    background: var(--color-bg);
+    overflow: hidden;
+    transform: rotate(10deg);
+    transition: var(--transition);
+    box-shadow: 0 0 1rem var(--color-primary);
+}
+
+.about__me-image:hover{
+    transform: rotate(0);
+}
+
+.about__cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.5rem;
+}
+
+.about__card{
+    background: var(--color-bg-variant);
+    border:1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    transition: var(--transition);
+    box-shadow: 0 0 1rem var(--color-primary);
+}
+
+.about__card:hover{
+    background: transparent;
+    transition: var(--transition);
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.about__icon {
+    color: var(--color-primary);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.about__card h5 {
+    font-size: 0.95rem;
+}
+.about__card small {
+    font-size: 0.7rem;
+    color: var(--color-light);
+}
+.about__content p {
+    margin: 2rem 0 2.6rem;
+    color: var(--color-light);
+}
+.about__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.MoreThanOneSkill__About{
+    padding:1rem;
+}
+
+.H5{
+    margin-bottom: 0.7rem;
+    animation-duration: 4s;
+    animation-name: changeSkillsColor;
+    transition-delay: 250ms;
+    animation-iteration-count: infinite;
+    animation-play-state: running; 
+}
+
+bold{
+    font-weight: bold;
+    font-size: medium;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-name: slidein;
+    transition-delay: 250ms;
+    animation-iteration-count: infinite;
+    animation-play-state: running;   
+}
+
+@keyframes slidein {
+    0% {
+        font-weight: medium;
+        color: var(--color-light);      
+    }
+    50%{
+        font-weight: large;
+        color: var(--color-primary);
+    }
+    100% {
+    font-weight: medium;
+    color: var(--color-light);
+    }
+  }
+
+  @keyframes changeSkillsColor {
+    0% {
+        font-weight: medium;
+        color: var(--color-light);      
+    }
+    50%{
+        font-weight: large;
+        color: var(--color-primary);
+    }
+    100% {
+    font-weight: medium;
+    color: var(--color-light);
+    }
+  }
+
+/* ================== RESPONSIVE PAGES (MEDIA QUERIES: MEDIUM DEVICES) ================ */
+
+@media screen and (max-width: 1024px) {
+    .about__container {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    .about__me {
+        width: 50%;
+        margin: 2rem auto 4rem;
+    }
+    .about__content p{
+        margin: 2rem 0 1.5rem;
+        text-align: center;
+    }
+    .btn-about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* ================== RESPONSIVE PAGES (MEDIA QUERIES: SMALL DEVICES) ================ */
+
+@media screen and (max-width: 600px){
+    .about__me {
+        width: 65%;
+        margin: 0 auto 3rem;
+    }
+
+    .about__cards{
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .about__content {
+        text-align: center;
+    }
+
+    .about__content p {
+        margin: 1.5rem 0;
+    }
+}
+
+>>>>>>> e61af9065dd16f47778f0371167c536e0f18970d

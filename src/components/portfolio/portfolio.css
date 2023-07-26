@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .portfolio__container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -68,4 +69,76 @@
         grid-template-columns: 1fr;
         gap: 1rem;
     }
+=======
+.portfolio__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+}
+
+.portfolio__items {
+    background: var(--color-bg-variant);
+    padding: 1.3rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    box-shadow: 0 0 1rem var(--color-primary);
+}
+
+.portfolio__items:hover {
+    border-color: var(--color-primary-variant);
+    background: transparent;
+}
+
+.portfolio__item-image {
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+/* .portfolio__item-image img {
+    width: 480px;
+    height: 360px;
+} */
+
+.portfolio__item-image2 img {
+    margin-top: 1rem;
+    margin-bottom: 3rem
+}
+
+.portfolio__item-image1 {
+    display: grid;
+    border-radius: 1.5rem;
+    gap: 5rem;
+    overflow: hidden;
+}
+
+.portfolio__item h3 {
+    margin: 1.2rem 0 2rem;
+}
+
+.portfolio__item-cta {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+/* ================== RESPONSIVE PAGES (MEDIA QUERIES: MEDIUM DEVICES) ================ */
+
+@media screen and (max-width: 1024px) {
+    .portfolio__container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+
+    }
+}
+
+/* ================== RESPONSIVE PAGES (MEDIA QUERIES: SMALL DEVICES) ================ */
+
+@media screen and (max-width: 600px) {
+    .portfolio__container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+>>>>>>> e61af9065dd16f47778f0371167c536e0f18970d
 }

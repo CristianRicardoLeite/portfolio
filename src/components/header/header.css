@@ -16,28 +16,30 @@ header {
 
 .cta {
     margin-top: 2.5rem;
-    display:flex;
+    display: flex;
     gap: 1.2rem;
     justify-content: center;
 }
 
-.btn-animation{
+.btn-animation {
     animation-name: growUp;
     transition: 2s;
     animation-duration: 2s;
     transition-delay: 100ms;
     animation-iteration-count: infinite;
-    animation-play-state: running; 
+    animation-play-state: running;
 }
 
-@keyframes growUp{
-    0%{
+@keyframes growUp {
+    0% {
         box-shadow: 0 0 1rem var(--color-primary);
     }
-    50%{
+
+    50% {
         box-shadow: none
     }
-    100%{
+
+    100% {
         box-shadow: 0 0 1rem var(--color-primary);
     }
 }
@@ -47,7 +49,7 @@ header {
 
 
 .header__socials {
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     gap: .8rem;
@@ -56,23 +58,23 @@ header {
     bottom: 3rem;
 }
 
-.header__socials::after{
+.header__socials::after {
     content: '';
     width: 1px;
     height: 2rem;
     background: var(--color-primary);
     box-shadow: 0 0 1rem var(--color-primary);
-    
+
 }
 
-.iconLink{
+.iconLink {
     box-shadow: 0 0 1rem var(--color-primary);
     background: transparent;
     border-radius: 3rem;
     padding: 0.2rem;
 }
 
-.scroll__down{
+.scroll__down {
     box-shadow: 0 0 1rem var(--color-primary);
     background: transparent;
     border-radius: 3rem;
@@ -84,7 +86,7 @@ header {
 
 
 .me {
-    background: linear-gradient( var(--color-primary), transparent);
+    background: linear-gradient(var(--color-primary), transparent);
     width: 22rem;
     height: 30rem;
     position: absolute;
@@ -118,41 +120,53 @@ header {
 
 /* ================== RESPONSIVE PAGES (MEDIA QUERIES: SMALL DEVICES) ================ */
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
     header {
         height: 100vh;
     }
 
-    .header__socials, .scroll__down {
+    .header__socials,
+    .scroll__down {
         display: none;
     }
 }
 
 /* ================== type js ================ */
 
-.typed-cursor{
+.typed-cursor {
     opacity: 1;
     animation: typedjsBlink 0.8s infinite;
     -webkit-animation: typedjsBlink 0.8s infinite;
     animation: typedjsBlink 0.8s infinite;
-  }
-  @keyframes typedjsBlink{
-    50% { opacity: 0.0; }
-  }
-  @-webkit-keyframes typedjsBlink{
-    0% { opacity: 1; }
-    50% { opacity: 0.0; }
-    100% { opacity: 1; }
-  }
-  .typed-fade-out{
+}
+
+@keyframes typedjsBlink {
+    50% {
+        opacity: 0.0;
+    }
+}
+
+@-webkit-keyframes typedjsBlink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.typed-fade-out {
     opacity: 0;
     transition: opacity .25s;
     -webkit-animation: 0;
     animation: 0;
-  }
+}
 
- .h5header{
+.h5header {
     font-size: 1.5rem;
-  }
-
-
+}
