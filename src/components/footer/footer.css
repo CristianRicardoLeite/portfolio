@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .contact {
     display: flex;
     flex-direction: column;
@@ -69,76 +68,4 @@
     .links a {
         display: none;
     }
-=======
-.contact {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 10px;
-    background: var(--color-primary);
-}
-
-.social {
-    margin: 0.5rem 1rem;
-}
-
-.social a {
-    font-size: 27px;
-    margin: 0.5rem 1rem;
-}
-
-.social a .bx {
-    padding: 5px;
-    color: #fff;
-    background: var(--color-bg);
-    border-radius: 50%;
-}
-
-.links a {
-    font-size: 1rem;
-    font-weight: 500;
-    color: var(--color-light);
-    padding: 1rem;
-}
-
-.links a:hover {
-    color: var(--color-bg);
-}
-
-.contact p {
-    text-align: center;
-    margin-bottom: 0.5rem;
-}
-
-.footer-icon {
-    margin: .2rem .8rem;
-    cursor: pointer;
-}
-
-.footer-icon:hover {
-    color: var(--color-bg);
-}
-
-.copyRight-link {
-    color: white;
-    font-weight: bold;
-}
-
-.copyRight-link:hover {
-    color: var(--color-bg);
-    font-weight: bold;
-}
-
-
-/* ================== RESPONSIVE PAGES (MEDIA QUERIES: SMALL DEVICES) ================ */
-
-@media screen and (max-width: 600px) {
-    .contact {
-        padding: auto 20px;
-    }
-
-    .links a {
-        display: none;
-    }
->>>>>>> e61af9065dd16f47778f0371167c536e0f18970d
 }
