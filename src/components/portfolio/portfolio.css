@@ -28,6 +28,11 @@
     height: 360px;
 } */
 
+.portfolio__item-image2 img {
+    margin-top: 1rem;
+    margin-bottom: 3rem
+}
+
 .portfolio__item-image1 {
     display: grid;
     border-radius: 1.5rem;

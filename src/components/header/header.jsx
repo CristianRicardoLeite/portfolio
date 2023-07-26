@@ -19,13 +19,13 @@ const Header = () => {
     })
   }, [])
 
-/* ================== type js ================ */
+  /* ================== type js ================ */
   const el = React.useRef(null);
-	const typed = React.useRef(null);
+  const typed = React.useRef(null);
 
   React.useEffect(() => {
     const options = {
-    	strings: [
+      strings: [
         '',
         'Backend Developer',
         'FullStack Developer',
@@ -35,13 +35,13 @@ const Header = () => {
       typeSpeed: 100,
       backSpeed: 100,
       backDelay: 1000,
-      loop:true,
+      loop: true,
       showCursor: false
     };
-    
+
     // elRef refers to the <span> rendered below
     typed.current = new Typed(el.current, options);
-    
+
   }, [])
 
   return (
@@ -51,14 +51,14 @@ const Header = () => {
         <h1 data-aos="fade-up" data-aos-duration="1500"> Cristian Ricardo Leite</h1>
         <h5 data-aos-duration="1500" className='text-light h5header' ref={el}> Frontend Developer</h5>
         <CallToAction />
-        <HeaderSocials/>
-      
-      <div data-aos="fade-up" data-aos-duration="1500" className="me">
-        <img  src={ME} alt='Me'/>
-      </div>
+        <HeaderSocials />
 
-      <a href='#Contact' className='scroll__down'> Scroll Down </a>
-    </div>
+        <div data-aos="fade-up" data-aos-duration="1500" className="me">
+          <img src={ME} alt='Me' />
+        </div>
+
+        <a href='#Contact' className='scroll__down'> Scroll Down </a>
+      </div>
     </header>
   )
 }
