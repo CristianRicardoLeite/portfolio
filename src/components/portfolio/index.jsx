@@ -12,7 +12,7 @@ import Aos from 'aos'
 import "../../../node_modules/aos/dist/aos.css"
 
 
-const Portfolio = () => {
+export const Portfolio = () => {
 
   /* ================== Aos (scroll) ================ */
 
@@ -94,5 +94,3 @@ const Portfolio = () => {
     </section>
   )
 }
-
-export default Portfolio

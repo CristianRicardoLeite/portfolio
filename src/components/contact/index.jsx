@@ -10,7 +10,7 @@ import Aos from 'aos'
 import "../../../node_modules/aos/dist/aos.css"
 
 
-const Contact = () => {
+export const Contact = () => {
 
   /* ================== Aos (scroll) ================ */
 
@@ -67,5 +67,3 @@ const Contact = () => {
     </section>
   )
 }
-
-export default Contact

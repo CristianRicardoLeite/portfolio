@@ -9,7 +9,7 @@ import Aos from 'aos'
 import "../../../node_modules/aos/dist/aos.css"
 
 
-const Header = () => {
+export const Header = () => {
 
   /* ================== Aos (scroll) ================ */
 
@@ -62,5 +62,3 @@ const Header = () => {
     </header>
   )
 }
-
-export default Header

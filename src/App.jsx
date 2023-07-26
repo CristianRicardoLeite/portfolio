@@ -1,15 +1,6 @@
 import React from 'react'
 
-import Header from './components/header/header'
-import About from './components/about/about'
-import Experience from './components/experience/experience'
-import Nav from './components/nav/nav'
-import Portfolio from './components/portfolio/portfolio'
-import Testimonials from './components/testimonials/testimonials'
-import Services from './components/services/services'
-import Contact from './components/contact/contact'
-import Footer from './components/footer/footer'
-
+import { Header, About, Experience, Nav, Portfolio, Testimonials, Services, Contact, Footer } from './components'
 
 const App = () => {
 

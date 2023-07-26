@@ -8,7 +8,7 @@ import { MdOutlineContacts } from 'react-icons/md'
 import { useState, useEffect } from 'react'
 import { Link, NavBar } from './nav-styles'
 
-const Nav = () => {
+export const Nav = () => {
 
   const [activeNav, setActiveNav] = useState('#')
 
@@ -29,5 +29,3 @@ const Nav = () => {
     </NavBar >
   )
 }
-
-export default Nav

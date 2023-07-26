@@ -13,7 +13,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
 
-const Testimonials = () => {
+export const Testimonials = () => {
 
   const data = [
     {
@@ -67,5 +67,4 @@ const Testimonials = () => {
   )
 }
 
-export default Testimonials
 

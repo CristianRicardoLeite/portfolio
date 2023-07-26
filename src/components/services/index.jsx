@@ -5,7 +5,7 @@ import { BiCheck } from 'react-icons/bi'
 import Aos from 'aos'
 import "../../../node_modules/aos/dist/aos.css"
 
-const Services = () => {
+export const Services = () => {
 
   /* ================== Aos (scroll) ================ */
 
@@ -91,5 +91,3 @@ const Services = () => {
     </section>
   )
 }
-
-export default Services

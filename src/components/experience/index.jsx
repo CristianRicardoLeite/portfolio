@@ -5,7 +5,7 @@ import { BsPatchCheckFill } from 'react-icons/bs'
 import Aos from 'aos'
 import "../../../node_modules/aos/dist/aos.css"
 
-const Experience = () => {
+export const Experience = () => {
 
   /* ================== Aos (scroll) ================ */
 
@@ -106,5 +106,3 @@ const Experience = () => {
     </section>
   )
 }
-
-export default Experience

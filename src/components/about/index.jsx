@@ -9,7 +9,7 @@ import Aos from 'aos'
 import "../../../node_modules/aos/dist/aos.css"
 
 
-const About = () => {
+export const About = () => {
 
   /* ================== Aos (scroll) ================ */
 
@@ -88,5 +88,3 @@ const About = () => {
     </section>
   )
 }
-
-export default About
