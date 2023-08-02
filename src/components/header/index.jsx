@@ -48,7 +48,7 @@ export const Header = () => {
     <header>
       <div className="container header__container" id='Home'>
         <h5 data-aos="fade-up" data-aos-duration="1500"> Hello I'm </h5>
-        <h1 data-aos="fade-up" data-aos-duration="1500"> Cristian Ricardo Leite</h1>
+        <h1 className="name" data-aos="fade-up" data-aos-duration="1500"> Cristian Ricardo Leite</h1>
         <h5 data-aos-duration="1500" className='text-light h5header' ref={el}> Frontend Developer</h5>
         <CallToAction />
         <HeaderSocials />

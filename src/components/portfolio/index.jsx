@@ -1,8 +1,8 @@
 import React from 'react'
 import './portfolio.css'
 
-import IMG1 from '../../assets/portfolio1.png'
-import IMG2 from '../../assets/portfolio2.png'
+import IMG1 from '../../assets/DevMovie.jpg'
+import IMG2 from '../../assets/Portifólio.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
 import IMG7 from '../../assets/portfolio7.png'
 import IMG8 from '../../assets/portfolio8.png'
@@ -32,28 +32,29 @@ export const Portfolio = () => {
       <div className="container portfolio__container">
         <article data-aos="zoom-in-up" data-aos-duration="1250" className='portfolio__items'>
           <div className="portfolio__item-image">
-            <img src={IMG1} alt='' />
-            <h3>Burger Requests</h3>
+            <img src={IMG1} alt='print-DevMovie-webpage' />
+            <h3>Dev Movie </h3>
+            <h3>(WITH API CONNECTION AND FULL RESPONSIVE)</h3>
             <div className="portfolio__item-cta">
-              <a href='https://github.com/CristianRicardoLeite/Burger-requests' className='btn' target='_blank' rel='noreferrer'>Github</a>
-              <a href='https://github.com/CristianRicardoLeite/Burger-requests' className='btn btn-primary' target='_blank' rel='noreferrer'>Live Demo</a>
+              <a href='https://github.com/CristianRicardoLeite/DevMovies' className='btn' target='_blank' rel='noreferrer'>Github</a>
+              <a href='https://dev-movies-kappa.vercel.app' className='btn btn-primary' target='_blank' rel='noreferrer'>Live Demo</a>
             </div>
           </div>
         </article>
         <article data-aos="zoom-in-up" data-aos-duration="1250" className='portfolio__items'>
           <div className="portfolio__item-image">
-            <img src={IMG2} alt='' />
-            <h3>Starbucks Web Page </h3>
+            <img src={IMG2} alt='print-portfolio-webpage' />
+            <h3>My Portfolio</h3>
             <div className="portfolio__item-cta">
-              <a href='https://github.com/CristianRicardoLeite/Starbucks-Project' className='btn' target='_blank' rel='noreferrer'>Github</a>
-              <a href='https://github.com/CristianRicardoLeite' className='btn btn-primary' target='_blank' rel='noreferrer'>Live Demo</a>
+              <a href='https://github.com/CristianRicardoLeite/portfolio' className='btn' target='_blank' rel='noreferrer'>Github</a>
+              <a href='cristianricardoleite.com' className='btn btn-primary' target='_blank' rel='noreferrer'>Live Demo</a>
             </div>
           </div>
         </article>
         <article data-aos="zoom-in-up" data-aos-duration="1250" className='portfolio__items'>
           <div className="portfolio__item-image">
             <img src={IMG3} alt='' />
-            <h3>Codeclub Burger   BACKEND</h3>
+            <h3>Codeclub Burger BACKEND</h3>
             <div className="portfolio__item-cta">
               <a href='https://github.com/CristianRicardoLeite/CodeBurger-backend' className='btn' target='_blank' rel='noreferrer'>Github</a>
               <a href='https://github.com/CristianRicardoLeite' className='btn btn-primary' target='_blank' rel='noreferrer'>Live Demo</a>
